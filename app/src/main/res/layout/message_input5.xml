@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:id="@+id/ll_message_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/message_input_style"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/message_input_tv_title"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:text="关于报销通知"
+                android:textSize="21sp"
+                android:layout_marginRight="20dp"/>
+
+            <ImageView
+                android:id="@+id/message_input_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:src="@drawable/bg"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/message_input_tv_content"
+            android:layout_width="324dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="25dp"
+            android:text="报销条件：1．报销条件是指公司日常生产用辅助材料．
+            后勤福利．差旅费．业务招待费．办公用的电脑耗材（如打印纸、传真纸、墨盒、硒鼓、磁盘等）．
+            办公文具（如笔、计算器、文件夹、便笺等）．生产．办公场所的零星维修费用和办公过程中发生的各项杂费等。
+            2．需要购买物品的部门，必须填写《申购单》报主管领导审批，
+            同意后由公司指定的员工购买，票据报销时须附申购单，如有变更，及时通知财务部备案。
+            办公用品报销必须附物品清单。"
+            android:scrollbars="vertical"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/message_input_tv_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2018/2/20"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

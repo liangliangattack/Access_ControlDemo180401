@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="spin001_array">
+        <item>病假</item>
+        <item>事假</item>
+        <item>婚假</item>
+        <item>丧假</item>
+    </array>
+</resources>

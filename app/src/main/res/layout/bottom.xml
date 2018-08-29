@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="#fff"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/id_mTabMessage">
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/bangmai_img"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:background="#fff"-->
+            <!--android:clickable="false"-->
+            <!--android:src="" />-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="通知"
+            android:textColor="#434343" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/id_mTabCheckRecord">
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/bangsong_img"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:background=""-->
+            <!--android:clickable="false"-->
+            <!--android:src="" />-->
+
+        <TextView
+            android:text="考勤"
+            android:textColor="#434343"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/id_mTabLeaveRest" >
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/order_img"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:background=""-->
+            <!--android:clickable="false"-->
+            <!--android:src="" />-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="请假"
+            android:textColor="#434343" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/id_mTabMy">
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/shop_img"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:background=""-->
+            <!--android:clickable="false"-->
+            <!--android:src="" />-->
+
+        <TextView
+            android:text="我的"
+            android:textColor="#434343"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

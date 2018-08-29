@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/leaverest_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:text="请假调休"/>-->
+
+    <TextView
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:text="请假类型" />
+
+    <Spinner
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/spin001_array" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请假日期" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请假天数" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:text="1" />
+
+    <Button
+        android:id="@+id/modify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="提交" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_qj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#778899">
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>
